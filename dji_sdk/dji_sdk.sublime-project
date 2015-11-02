@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"sublimeclang_options":
+		[
+			"-I${folder:${project_path:dji_sdk.sublime-project}}/src/**",
+			"-I${folder:${project_path:dji_sdk.sublime-project}}/../../devel/include/",
+			"-isystem", "/opt/ros/jade/include/",
+        	"-isystem", "/opt/ros/jade/include/**"
+		]
+	}
+}

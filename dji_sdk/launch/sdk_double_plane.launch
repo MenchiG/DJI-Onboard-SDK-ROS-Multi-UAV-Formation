@@ -1,0 +1,87 @@
+<launch>
+    <env name="ROSLAUNCH_SSH_UNKNOWN" value="1"/>
+    <env name="ROS_MASTER_URI" value="http://192.168.1.50:11311"/>
+    <env name="LIBGL_ALWAYS_SOFTWARE" value="1"/>
+
+    <group ns="uav1">
+        <machine name="uav1" address="192.168.1.51" env-loader="/opt/ros/jade/env.sh" user="hlr"/>
+        <node machine="uav1" pkg="dji_ros" type="dji_ros" name="dji_ros" output="screen">
+                
+            <param name="serial_name" type="string" value="/dev/ttyUSB0"/>
+            <param name="baud_rate" type="int" value="230400"/>
+            <param name="app_id" type="int" value="1014392"/>
+            <param name="app_api_level" type="int" value="2"/>
+            <param name="app_version" type="int" value="1"/>
+            <param name="app_bundle_id" type="string" value="Welcome to use dji-sdk"/>
+            <param name="enc_key" type="string" value="1ff3b2da30174cfb473757d1dbe7c3840eb7953dc8d0ab6716e842265b646d04"/>
+        </node>
+
+        <node pkg="dji_sdk" type="dji_sdk_node" name="dji_sdk_node" />
+        <node pkg="dji_sdk" type="dji_gps_node" name="dji_gps_node" />
+        <node pkg="dji_sdk" type="dji_quat_node" name="dji_quat_node"/>
+        <node pkg="dji_sdk" type="dji_point_node" name="dji_point_node" output="screen">
+
+            <param name="GPS_YAW_P" value="1"/>
+            <param name="GPS_YAW_I" value="0.0"/>
+            <param name="GPS_YAW_D" value="0.0"/>
+
+            <param name="GPS_X_P" value="1"/>
+            <param name="GPS_X_I" value="0.0"/>
+            <param name="GPS_X_D" value="0.0"/>
+
+            <param name="GPS_Y_P" value="1"/>
+            <param name="GPS_Y_I" value="0.0"/>
+            <param name="GPS_Y_D" value="0.0"/>
+
+            <param name="GPS_Z_P" value="1"/>
+            <param name="GPS_Z_I" value="0.0"/>
+            <param name="GPS_Z_D" value="0.0"/>
+
+        </node>
+        <node pkg="dji_sdk" type="dji_debug_node" name="dji_debug_node" output="screen"/>
+        <node pkg="dji_sdk" type="dji_follow_node" name="dji_follow_node" output="screen"/>
+    </group>
+
+    <group ns="uav2">
+
+        <machine name="uav2" address="192.168.1.100" env-loader="/opt/ros/indigo/env.sh" user="szm"/>
+        <node machine="uav2" pkg="dji_ros" type="dji_ros" name="dji_ros" output="screen">
+                <!-- node parameters -->
+            <param name="serial_name" type="string" value="/dev/ttyUSB0"/>
+            <param name="baud_rate" type="int" value="230400"/>
+            <param name="app_id" type="int" value="1016212"/>
+            <param name="app_api_level" type="int" value="2"/>
+            <param name="app_version" type="int" value="1"/>
+            <param name="app_bundle_id" type="string" value="Welcome to use dji-sdk"/>
+            <param name="enc_key" type="string" value="dadc043d5005808819e7350da2a8988a6c8ffa2924905f8b5f793510dc77180c"/>
+        </node>
+
+        <node pkg="dji_sdk" type="dji_sdk_node" name="dji_sdk_node" />
+        <node pkg="dji_sdk" type="dji_gps_node" name="dji_gps_node" />
+        <node pkg="dji_sdk" type="dji_quat_node" name="dji_quat_node"/>
+        <node pkg="dji_sdk" type="dji_point_node" name="dji_point_node" output="screen">
+
+            <param name="GPS_YAW_P" value="1"/>
+            <param name="GPS_YAW_I" value="0.0"/>
+            <param name="GPS_YAW_D" value="0.0"/>
+
+            <param name="GPS_X_P" value="1"/>
+            <param name="GPS_X_I" value="0.0"/>
+            <param name="GPS_X_D" value="0.0"/>
+
+            <param name="GPS_Y_P" value="1"/>
+            <param name="GPS_Y_I" value="0.0"/>
+            <param name="GPS_Y_D" value="0.0"/>
+
+            <param name="GPS_Z_P" value="1"/>
+            <param name="GPS_Z_I" value="0.0"/>
+            <param name="GPS_Z_D" value="0.0"/>
+
+        </node>
+        <node pkg="dji_sdk" type="dji_debug_node" name="dji_debug_node" output="screen"/>
+        <node pkg="dji_sdk" type="dji_follow_node" name="dji_follow_node" output="screen"/>
+    </group>
+
+
+
+</launch>

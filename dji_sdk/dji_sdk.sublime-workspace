@@ -1,0 +1,999 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"out_",
+				"out_yaw	fp32"
+			],
+			[
+				"dji",
+				"dji_sdk"
+			],
+			[
+				"dji_",
+				"dji_ros"
+			],
+			[
+				"M_P",
+				"M_PI_2	macro"
+			],
+			[
+				"y",
+				"yaw	float"
+			],
+			[
+				"uav",
+				"uav1_pos	uav_pos_state"
+			],
+			[
+				"lock",
+				"lock_angular	double"
+			],
+			[
+				"lock_",
+				"lock_linear	double"
+			],
+			[
+				"ge",
+				"getAngleShortestPath() const	tfScalar"
+			],
+			[
+				"pose",
+				"pose_world	tf::Pose"
+			],
+			[
+				"g",
+				"getRotation() const	tf::Quaternion"
+			],
+			[
+				"set",
+				"setOrigin(const tf::Vector3 &origin)	void"
+			],
+			[
+				"transfrom",
+				"transformPose(const std::string &target_frame, const Stamped<tf::Pose> &stamped_in, Stamped<tf::Pose> &stamped_out) const	void"
+			],
+			[
+				"po",
+				"Pose	typedef"
+			],
+			[
+				"Stamped",
+				"Stamped<typename T>	class"
+			],
+			[
+				"tran",
+				"transformPose(const std::string &target_frame, const Stamped<tf::Pose> &stamped_in, Stamped<tf::Pose> &stamped_out) const	void"
+			],
+			[
+				"se",
+				"setCheckState(EntryHandle handle, interactive_markers::MenuHandler::CheckState check_state)	bool"
+			],
+			[
+				"ch",
+				"CHECKED	interactive_markers::MenuHandler::CheckState"
+			],
+			[
+				"get",
+				"getCheckState(EntryHandle handle, interactive_markers::MenuHandler::CheckState &check_state) const	bool"
+			],
+			[
+				"Menu",
+				"MenuHandler	class"
+			],
+			[
+				"m",
+				"MENU	enum <anonymous>"
+			],
+			[
+				"menu",
+				"menu_entry_id	_menu_entry_id_type"
+			],
+			[
+				"me",
+				"MenuHandler"
+			],
+			[
+				"DEpe",
+				"dependency"
+			],
+			[
+				"ve",
+				"Vector3	class"
+			],
+			[
+				"pu",
+				"Publisher	class"
+			],
+			[
+				"sem_",
+				"sem_app_start	sem_t"
+			],
+			[
+				"Ser",
+				"ServiceClient	class"
+			],
+			[
+				"tartge",
+				"target_drone	drone_t"
+			],
+			[
+				"tart",
+				"target_height	fp64"
+			],
+			[
+				"eu",
+				"euler_pub"
+			],
+			[
+				"x",
+				"x	_x_type"
+			],
+			[
+				"q",
+				"q0"
+			],
+			[
+				"tar",
+				"target_x	fp32"
+			],
+			[
+				"rea",
+				"rel_pos_<class ContainerAllocator>	class"
+			],
+			[
+				"ctr",
+				"ctrl_4"
+			],
+			[
+				"uint",
+				"uint8_t	typedef"
+			],
+			[
+				"miss",
+				"mission_stop"
+			],
+			[
+				"mission_",
+				"mission_start"
+			],
+			[
+				"ex",
+				"extern"
+			],
+			[
+				"th",
+				"throttle"
+			],
+			[
+				"hea",
+				"health_flag"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"al",
+				"alti"
+			],
+			[
+				"lo",
+				"longti"
+			],
+			[
+				"la",
+				"lati"
+			],
+			[
+				"rec",
+				"recv_sdk_std_msgs	int"
+			],
+			[
+				"tim",
+				"Time	class"
+			],
+			[
+				"rosba",
+				"rosbag"
+			],
+			[
+				"nam",
+				"namespace"
+			],
+			[
+				"ba",
+				"bagmode	namespace"
+			],
+			[
+				"ros",
+				"rosbag	namespace"
+			],
+			[
+				"uin",
+				"uint8_t"
+			],
+			[
+				"fal",
+				"flag_simulator	uint8_t"
+			],
+			[
+				"uint8_",
+				"uint8_t"
+			],
+			[
+				"fla",
+				"flag_home_record	uint8_t"
+			],
+			[
+				"home_long",
+				"home_longti	fp64"
+			],
+			[
+				"home_",
+				"home_lati	fp64"
+			],
+			[
+				"simu",
+				"simu_data	simu_data_t"
+			],
+			[
+				"C_E",
+				"C_EARTH(double)	macro"
+			],
+			[
+				"dlo",
+				"dlongti	double"
+			],
+			[
+				"C_",
+				"C_EARTH(double)	macro"
+			],
+			[
+				"dla",
+				"dlati	double"
+			],
+			[
+				"home",
+				"home_longti	fp64"
+			],
+			[
+				"sim",
+				"simu_data	simu_data_t"
+			],
+			[
+				"l",
+				"longti	fp64"
+			],
+			[
+				"data",
+				"data_simu	int [20]"
+			],
+			[
+				"c",
+				"c_str() const	const char *"
+			],
+			[
+				"ap",
+				"append(const char *__s)	std::basic_string<char> &"
+			],
+			[
+				"co",
+				"copy(_CharT *__s, size_type __n) const	size_type"
+			],
+			[
+				"erase",
+				"erase(iterator __position)	iterator"
+			],
+			[
+				"serv",
+				"servaddr	struct sockaddr_in"
+			],
+			[
+				"serva",
+				"servaddr	struct sockaddr_in"
+			],
+			[
+				"INAD",
+				"INADDR_ANY	macro"
+			],
+			[
+				"sock",
+				"sockaddr_in	struct"
+			],
+			[
+				"SOCK_D",
+				"SOCK_DGRAM	__socket_type"
+			],
+			[
+				"AF_NET",
+				"AF_INET	macro"
+			],
+			[
+				"su",
+				"Subscriber	class"
+			],
+			[
+				"out",
+				"outx"
+			],
+			[
+				"err",
+				"err_y2-2"
+			],
+			[
+				"fp",
+				"fp64"
+			],
+			[
+				"sle",
+				"sleep(unsigned int __seconds)	unsigned int"
+			],
+			[
+				"usle",
+				"usleep(__useconds_t __useconds)	int"
+			],
+			[
+				"cont",
+				"control_data	int"
+			],
+			[
+				"pub",
+				"publish"
+			],
+			[
+				"alt",
+				"alti"
+			],
+			[
+				"sub",
+				"subscribe"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"fl",
+				"flight_status"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "launch/sdk_double_plane.launch",
+			"settings":
+			{
+				"buffer_size": 3965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/menchi/.config/sublime-text-3/Packages/User/SublimeClang.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 651,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"last_filter": "setting",
+		"selected_items":
+		[
+			[
+				"setting",
+				"Preferences: SublimeClang Settings – User"
+			],
+			[
+				"instak",
+				"Package Control: Install Package"
+			],
+			[
+				"sub",
+				"Preferences: SublimeClang Settings – User"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/menchi/catkin_ws/src/dji_sdk"
+	],
+	"file_history":
+	[
+		"/home/menchi/catkin_ws/src/dji_sdk/dji_sdk.sublime-project",
+		"/home/menchi/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/menchi/catkin_ws/src/dji_sdk/src/dji_sdk_node.cpp",
+		"/home/menchi/catkin_ws/devel/include/dji_sdk/set_home.h",
+		"/home/menchi/catkin_ws/devel/include/dji_sdk/set_homeResponse.h",
+		"/home/menchi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/menchi/catkin_ws/src/dji_sdk/launch/sdk_demo.launch",
+		"/home/menchi/catkin_ws/src/dji_sdk/launch/sdk_single_point.launch",
+		"/home/menchi/catkin_ws/src/dji_sdk/src/dji_point_node.cpp",
+		"/home/menchi/catkin_ws/src/dji_sdk/launch/sdk_double_plane.launch",
+		"/home/menchi/catkin_ws/src/dji_sdk/src/dji_follow_node.cpp",
+		"/home/menchi/catkin_ws/src/dji_sdk/src/dji_debug_node.cpp",
+		"/home/menchi/catkin_ws/devel/include/dji_ros/control_manager.h",
+		"/home/menchi/catkin_ws/src/dji_sdk/package.xml",
+		"/home/menchi/catkin_ws/src/dji_sdk/src/dji_quat_node.cpp",
+		"/home/menchi/catkin_ws/src/dji_sdk/CMakeLists.txt",
+		"/home/menchi/catkin_ws/src/dji_sdk/src/dji_gps_node.cpp",
+		"/home/menchi/catkin_ws/src/dji_sdk/msg/acc.msg",
+		"/usr/include/math.h",
+		"/home/menchi/catkin_ws/src/dji_sdk/launch/sdk_onboard.launch",
+		"/home/menchi/.bashrc",
+		"/home/menchi/catkin_ws/src/dji_sdk/msg/euler.msg",
+		"/home/menchi/catkin_ws/src/dji_sdk/src/sdk_lib/DJI_Pro_App.cpp",
+		"/opt/ros/jade/include/geometry_msgs/PoseStamped.h",
+		"/opt/ros/jade/include/geometry_msgs/Pose.h",
+		"/opt/ros/jade/include/geometry_msgs/Quaternion.h",
+		"/home/menchi/catkin_ws/src/dji_sdk/src/sdk_lib/DJI_Pro_Link.h",
+		"/etc/hosts",
+		"/opt/ros/jade/include/tf/tf.h",
+		"/opt/ros/jade/setup.bash",
+		"/home/menchi/.bashsrc",
+		"/opt/ros/jade/env.sh",
+		"/opt/ros/jade/include/tf/transform_datatypes.h",
+		"/opt/ros/jade/include/tf/LinearMath/Transform.h",
+		"/opt/ros/jade/include/ros/time.h",
+		"/home/menchi/catkin_ws/src/dji_sdk/msg/ctrl_4.msg",
+		"/home/menchi/catkin_ws/src/dji_sdk/msg/gps.msg",
+		"/home/menchi/catkin_ws/src/dji_sdk/msg/rel_pos.msg",
+		"/usr/include/c++/4.8/bits/stl_vector.h",
+		"/opt/ros/jade/include/interactive_markers/interactive_marker_server.h",
+		"/opt/ros/jade/include/visualization_msgs/InteractiveMarkerFeedback.h",
+		"/home/hlr/catkin_ws/src/draw_airline/package.xml",
+		"/home/hlr/catkin_ws/src/draw_airline/CMakeLists.txt",
+		"/home/hlr/catkin_ws/src/draw_airline/include/draw_airline/qnode.hpp",
+		"/home/hlr/.config/sublime-text-3/Packages/User/SublimeClang.sublime-settings",
+		"/home/hlr/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/hlr/catkin_ws/src/draw_airline/include/draw_airline/main_window.hpp",
+		"/home/hlr/catkin_ws/src/draw_airline/src/main.cpp",
+		"/home/hlr/catkin_ws/src/draw_airline/src/draw.sublime-project",
+		"/home/hlr/catkin_ws/src/draw_airline/src/qnode.cpp",
+		"/home/hlr/catkin_ws/src/draw_airline/src/main_window.cpp",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/dji_quat_node.cpp",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/dji_debug_node.cpp",
+		"/home/hlr/catkin_ws/src/dji_sdk/msg/rel_pos.msg",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/dji_follow_node.cpp",
+		"/home/hlr/.config/sublime-text-3/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/home/hlr/catkin_ws/src/dji_sdk/CMakeLists.txt",
+		"/home/hlr/catkin_ws/src/dji_sdk/launch/sdk_demo.launch",
+		"/home/hlr/catkin_ws/src/dji_sdk/launch/sdk_single_point.launch",
+		"/home/hlr/catkin_ws/src/dji_sdk/package.xml",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/dji_gps_node.cpp",
+		"/home/hlr/catkin_ws/src/dji_sdk/launch/sdk_onboard.launch",
+		"/home/hlr/catkin_ws/src/dji_sdk/srv/cmd_sdk.srv",
+		"/home/hlr/cp_file.sh",
+		"/home/hlr/catkin_ws/src/CMakeLists.txt",
+		"/home/hlr/catkin_ws/src/dji_sdk/srv/start_app.srv",
+		"/home/hlr/catkin_ws/src/dji_sdk/dji_sdk.sublime-project",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/dji_point_node.cpp",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/dji_sdk_node.cpp",
+		"/media/hlr/Ubuntu-GNOME 14.10 amd64/dji_sdk/package.xml",
+		"/home/hlr/catkin_ws/src/dji_sdk/srv/init.srv",
+		"/home/hlr/catkin_ws/src/dji_sdk/msg/euler.msg",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/sdk_lib/DJI_Pro_App.h",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/sdk_lib/DJI_Pro_App.cpp",
+		"/home/hlr/catkin_ws/src/dji_sdk/srv/set_home.srv",
+		"/home/hlr/catkin_ws/src/dji_sdk/msg/gps.msg",
+		"/home/hlr/catkin_ws/src/dji_sdk/msg/ctrl_4.msg",
+		"/home/hlr/catkin_ws/src/dji_sdk/srv/set_target_point.srv",
+		"/home/hlr/catkin_ws/src/dji_sdk/srv/activation.srv",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/dji_sdk_node.cpp~",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/data_exchange/call_back_fun.cpp",
+		"/home/hlr/Documents/src/src/dji_sdk_node.cpp",
+		"/home/hlr/catkin_ws/src/dji_ctrl/src/call_back_fun",
+		"/home/hlr/catkin_ws/src/dji_sdk_new/package.xml",
+		"/home/hlr/catkin_ws/src/dji_sdk_new/src/dji_sdk_node_new.cpp",
+		"/home/hlr/catkin_ws/src/dji_sdk_new/CMakeLists.txt",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/sdk_app/picojson.h",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/sdk_app/picotest.c",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/sdk_app/picotest.h",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/sdk_app/json.h",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/sdk_app/json.c",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/sdk_app/json11.hpp",
+		"/home/hlr/catkin_ws/src/dji_sdk/src/sdk_app/json11.cpp",
+		"/usr/include/stdint.h",
+		"/usr/include/stdio.h",
+		"/home/hlr/.config/sublime-text-3/Packages/C++ Snippets/reference.md"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"-*.txt",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"debug",
+			"debug_rel_pos_pub",
+			"server",
+			"set_target_point",
+			"my_pos_srv",
+			"follow_client",
+			"KEEP_DISTANCE",
+			"dji_ros",
+			"CmdStartThread",
+			"MissionThread",
+			"App_Recv_Req_Data",
+			"App_Recv_Set_Hook",
+			"App_Recv_Req_Data",
+			"pro_hw",
+			"rel_pos_sub",
+			"tf_listener",
+			"client",
+			" pose_world",
+			" pose_world;",
+			"\" ",
+			"visualization_msgs::",
+			"interactive_markers::",
+			"PROJECT_SOURCE_DIR",
+			"ctrl_pub",
+			"sem_app_start",
+			"sem",
+			"main",
+			"flag_mission_start",
+			"ctrl_msg.HORI_VEL_y",
+			"ctrl_msg",
+			"real",
+			"spin",
+			"cmd_result",
+			"is_sys_error",
+			"REQ_REFUSE",
+			"send req status",
+			"REQ_REFUSE",
+			"random_test Cmd result",
+			"cmd_result",
+			"flag_mission_start",
+			"REQ_REFUSE",
+			"cmd_unit",
+			"REQ_REFUSE",
+			"cmd_send_flag",
+			"REQ_REFUSE",
+			"NO_AUTHORITY",
+			"activation_status_pub",
+			"test_activation",
+			"falg_mission_start",
+			"ros_mission_stop_callback",
+			"cmd_callback_fun",
+			"MissionThread",
+			"CmdStartThread",
+			"generate_messages",
+			"GetControlCallback",
+			"ActivationCallback",
+			"Flag_Active",
+			"activation_status_pub.publish",
+			"nav_ctrl_status_pub.publish",
+			"activation_status_pub.publish",
+			"test_fre_pub.publish",
+			"activation_status_pub.publish",
+			"random_test_ack_cmd_callback",
+			"spin_callback",
+			"Activation_Alrm",
+			"data_ctrl_device_callback",
+			"Flag_Home",
+			"MissionStartThread",
+			"Flag_Home",
+			"sdk_ack_nav_open_close_callback",
+			"ros_nav_open_close_callback",
+			"test_activation_ack_cmd_callback",
+			"test_activation",
+			"nav_ctrl_status_pub",
+			"task_Finish",
+			"cmd_callback",
+			"global_send_data",
+			"Track_The_Leader_Fun",
+			"RadToDeg",
+			"Track_The_Leader_Fun",
+			"GetDeltaPostionXYZ",
+			"task_callback",
+			"nav_ctrl_status_pub",
+			"();\n",
+			"MissionStartThread",
+			"flag_mission_start",
+			"Activation_Alrm",
+			"simple_task_timer",
+			"send_control_data",
+			"nav_force_close_req_id",
+			"nav_force_close_req_id.reserve",
+			"flag_mission_start",
+			"ctrl_mode",
+			"ros_activation_callback",
+			"ros_simple_task_callback",
+			"ros_ctrl_mode_callback",
+			"ros_ctrl_data_callback",
+			"ros_nav_open_close_callback",
+			"cmd_send_flag",
+			"auto_control_start",
+			"cmd_send_flag",
+			"ros_cmd_data_callback",
+			"simu_data_t",
+			"sdk_app",
+			"ros_mission_start_callback",
+			"recv_sdk_std_msgs",
+			"sdk_std_msg_t",
+			"recv_sdk_std_msgs",
+			"spin",
+			"cmd_callback_fun",
+			"EARTH_RADIUS",
+			"battery_pub",
+			"nav_ctrl_status_pub",
+			"battery_pub",
+			"flag_mission_start",
+			"auto_control_start",
+			"flag_mission_start",
+			"auto_control_start",
+			"control_data",
+			"send_control_data",
+			"spin",
+			"recv_sdk_std_msgs",
+			"sdk_std_msg_t",
+			"recv_sdk_std_msgs",
+			"spin",
+			"auto_control_start",
+			"spin",
+			"flag_send_data"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dji_sdk",
+			"",
+			"rel"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "launch/sdk_double_plane.launch",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								602,
+								602
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/menchi/.config/sublime-text-3/Packages/User/SublimeClang.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "dji_sdk.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/github/raspberry-pm25/dji-raspberry.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
